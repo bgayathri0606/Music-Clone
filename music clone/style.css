@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Marcellus SC", serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #654ea3;
+  background: -webkit-linear-gradient(to left, #eaafc8, #654ea3);
+  background: linear-gradient(to left, #eaafc8, #654ea3);
+  position: relative;
+}
+
+.mobile {
+  position: absolute;
+  top: 4rem;
+  left: 25rem;
+  max-width: 350px;
+  height: 680px;
+  margin: 4rem 35rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  background: #dfe3e4;
+  box-shadow: 15px 10px 10px rgba(53, 12, 0, 0.5);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2rem;
+  font-size: 2rem;
+  color: #444;
+}
+
+header a {
+  color: inherit;
+}
+
+menu {
+  color: #28282b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.6rem;
+  margin-top: 2.2rem;
+}
+
+menu i:hover {
+  color: #f7da04;
+  transition: 0.3s all ease-in-out;
+  transform: rotate(360deg);
+}
+
+menu b {
+  color: #373744;
+  letter-spacing: 1px;
+}
+
+menu i {
+  padding: 0px 2.2rem; /* for icons */
+}
+
+.nameOfSong {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameOfSong p {
+  font-size: 20px;
+  font-family: "Gentium Book Basic", serif;
+}
+
+img {
+  width: 15rem;
+  height: 15rem;
+  margin: 2.5rem 3.28rem;
+  border-radius: 1.8rem;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.music {
+  color: #28282b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+input[type="range"] {
+  -webkit-apperance: none;
+  width: 50%;
+  outline: none;
+  height: 2px;
+  margin: 0 -2.5rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-apperance: none;
+  height: 50px;
+  width: 50px;
+  background: #654ea3;
+  background: -webkit-linear-gradient(to left, #eaafc8, #654ea3);
+  background: linear-gradient(to left, #eaafc8, #654ea3);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.music a {
+  color: inherit;
+}
+
+.play {
+  color: #28282b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3.5rem auto;
+  font-size: 2rem;
+  padding: 0px 2.5rem;
+  cursor: pointer;
+}
+
+.circle {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: #654ea3;
+  background: -webkit-linear-gradient(to left, #eaafc8, #654ea3);
+  background: linear-gradient(to left, #eaafc8, #654ea3);
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 1.2rem;
+  padding-left: 0.25rem;
+  box-shadow: 0 15px 41px 0 rgba(10, 31, 58, 0.53);
+}
+
+.play i:active {
+  /* When those buttons are clicked */
+  opacity: 0.6;
+}
+
+/* .circle:active{
+    transform: translate(-6px, -1px) ;   Want to get that button GO UP when it is clicked
+  } 
+  
+   */
